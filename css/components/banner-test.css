@@ -1,0 +1,21 @@
+.banner-test {
+	background: linear-gradient(-225deg, rgba(30,30,30,0.6) 30%, rgba(46,46,46,0.5) 80%), url("http://unsplash.it/1200/500/?random") no-repeat;
+  	display: flex;
+  	align-items: center;
+  	height: 100vh;
+  	background-size: cover;
+  	justify-content: space-around;
+  	color: white;
+}
+.banner-test h1 {
+  font-size: 50px;
+  font-weight: bolder;
+}
+
+.banner-test p {
+  font-size: 30px;
+  font-weight: lighter;
+}
+p, h1 {
+	margin: 0 !important;
+}
